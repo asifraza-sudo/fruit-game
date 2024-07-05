@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+#myGameContainer {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+#myGameCanvas {
+    width: 100%;
+    height: 100%;
+}
+
+#myScoreBoard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: #333;
+}
